@@ -1,0 +1,90 @@
+.order-placement {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-placement-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+}
+
+.order-placement-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.order-placement h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #2c5282;
+}
+
+.order-placement-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.order-placement-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.order-item-name {
+  flex: 1;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.order-placement-quantity {
+  width: 100px;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.order-placement-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.order-placement-btn:hover {
+  background-color: #2b6cb0;
+}
+
+@media (min-width: 768px) {
+  .order-placement {
+    padding: 3rem;
+  }
+
+  .order-placement-item {
+    max-width: 600px;
+    margin-bottom: 1rem;
+  }
+
+  .order-placement-btn {
+    max-width: 200px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,61 @@
+.catalogue {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.catalogue h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2d3748;
+}
+
+.catalogue ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalogue li {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place-order-btn {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background-color: #38a169;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.place-order-btn:hover {
+  background-color: #2f855a;
+}
+.catalogue-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-name {
+  font-weight: 600;
+  color: #2d3748;
+}
+.product-price {
+  font-size: 1rem;
+  color: #4a5568;
+}

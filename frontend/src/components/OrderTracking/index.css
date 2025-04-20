@@ -1,0 +1,65 @@
+/* OrderTracking.css */
+
+/* Container styles */
+.order-tracking-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Heading */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input field */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Button */
+button {
+  padding: 12px 24px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #138496;
+}
+
+/* Status section */
+.status-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9f7f9;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.status-container strong {
+  color: #17a2b8;
+  font-size: 1.2rem;
+}
+
+.status-container span {
+  font-size: 1rem;
+  color: #333;
+}
