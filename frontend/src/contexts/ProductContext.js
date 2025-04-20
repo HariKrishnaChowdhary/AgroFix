@@ -4,7 +4,7 @@ import axios from 'axios';
 export const ProductContext = createContext();
 
 // Set base URL for Axios
-axios.defaults.baseURL = 'http://localhost:5000'; // Update to your backend URL
+axios.defaults.baseURL = 'https://agrofix-4q9j.onrender.com'; // Update to your backend URL
 
 export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
